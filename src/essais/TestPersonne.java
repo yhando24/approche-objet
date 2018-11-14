@@ -7,17 +7,18 @@ public class TestPersonne {
 
 	public static void main(String[] args) {
 	
-		Personne personne1 = new Personne();
+		Personne personne1 = new Personne("Handoura", "Youcef");
 		
-		Personne personne2 = new Personne();
-		
-	
 		personne1.adresse.CodePostal = "34000";
 		
+		Personne personne2 = new Personne("Mangata", "Michel", new AdressePostale("Rue jean Moulin", "Toulouse","12000"));
 		
-		personne2.adresse.CodePostal = "75020";
+	
 
 		
+		
+
+
 
 	}
 
